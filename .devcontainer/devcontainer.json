@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/nix:1": {
+      "version": "2.11.1",
+      "flakeUri": "nixpkgs#direnv"
+    }
+  },
+  "extensions": [
+    "jnoortheen.nix-ide",
+    "mkhl.direnv",
+    "googlecloudtools.cloudcode",
+    "golang.go",
+    "redhat.vscode-yaml",
+    "ms-azuretools.vscode-docker"
+  ]
+}
